@@ -15,10 +15,8 @@ class MyButton2 : AppCompatButton {
     // In Kotlin we use companion object for that.
     companion object {
         // For styles defined in XML.
-        // For static fields use JvmField! We must use it, so that the field will be static in Java.
-        @JvmField
         @Style
-        val RED_STYLE = R.style.RedButtonStyle  // style is defined in in res/values/styles.xml
+        const val RED_STYLE = R.style.RedButtonStyle  // style is defined in in res/values/styles.xml
     }
 
     constructor(context: Context): super(context)
