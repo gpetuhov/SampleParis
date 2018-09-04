@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SampleParis</string>
+    <string name="second_button">Second button</string>
 </resources>

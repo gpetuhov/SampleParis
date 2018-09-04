@@ -12,4 +12,8 @@
         <item name="android:textColor">@color/md_red_900</item>
     </style>
 
+    <style name="RedButtonStyle">
+        <item name="android:textColor">@color/md_red_900</item>
+    </style>
+
 </resources>
