@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="RedTextStyle">
+        <item name="android:textColor">@color/md_red_900</item>
+    </style>
+
 </resources>
