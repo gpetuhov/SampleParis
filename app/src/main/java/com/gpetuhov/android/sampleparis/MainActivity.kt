@@ -12,7 +12,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         helloText.setOnClickListener {
+            // The simplest way to set style from XML
             Paris.style(helloText).apply(R.style.RedTextStyle)
+
+            // And also we can define style programmatically
+            Paris.styleBuilder(helloText)
+                    .textSizeDp(30)
+                    .apply()
         }
     }
 }
