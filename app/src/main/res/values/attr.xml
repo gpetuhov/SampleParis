@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--These are the custom attributes of our MyButton view.
+    We can use these attributes in layout XML or programmatically-->
+    <declare-styleable name="MyButton">
+        <attr name="myButtonTitle" format="string" />
+        <attr name="myButtonBackground" format="color" />
+    </declare-styleable>
+</resources>

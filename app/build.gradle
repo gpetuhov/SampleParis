@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 27
@@ -33,5 +34,5 @@ dependencies {
 
     implementation 'com.airbnb.android:paris:1.0.0'
     implementation 'com.airbnb.android:paris-annotations:1.0.0'
-    annotationProcessor 'com.airbnb.android:paris-processor:1.0.0'
+    kapt 'com.airbnb.android:paris-processor:1.0.0'
 }
